@@ -1,6 +1,6 @@
 # Weather reminder
 
-## Weather reminder service and API, you can create a subscription with a suitable notification period(hours) and add your desired cities.
+Weather reminder service and API, you can create a subscription with a suitable notification period(hours) and add your desired cities.
 
 ## Getting Started
 
