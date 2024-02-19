@@ -4,6 +4,9 @@ Weather reminder service and API, you can create a subscription with a suitable 
 
 ## Getting Started
 
+To run app, use: 
+"docker compose up"
+
 1. For using this app, you need to fill personal data, such as:
  - "EMAIL_FROM", "EMAIL_HOST_USER" and EMAIL_HOST_PASSWORD - from who will be sent notification messages;
 
@@ -16,9 +19,6 @@ Weather reminder service and API, you can create a subscription with a suitable 
 7. To check cities in specific subscription GET on "http://'your domain name'/api/subscription/<subscription_id>/cities/";
 8. To get weather for all cities on subscription GET on "http://'your domain name'/api/subscription/<subscription_id>/get_weather/"
 9. To check weather on specific city use GET on "http://'your domain name'/api/subscription/<subscription_id>/get_weather/<city_name>/
-
-To run app, use: 
-"docker compose up"
 
 ### Prerequisites
 
